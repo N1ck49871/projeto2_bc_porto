@@ -22,7 +22,7 @@ body {
 main {
   width: 70%;
   float: right;
-  margin-right: 5%;
+  margin-right: 4%;
   display: flex;
   flex-direction: column;
 }
@@ -31,9 +31,10 @@ ul {
 }
 .sidebar {
 
-  height: 150vh;
+  height: 100vh;
   width: 280px;
   float: left;
+  position: fixed;
   background-color: var(--cor-secundaria);
   display: flex;
   flex-wrap: wrap;
