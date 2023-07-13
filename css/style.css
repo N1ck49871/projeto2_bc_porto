@@ -62,7 +62,8 @@ ul {
 .card {
   background-color: var(--quinta-cor);
   margin: 16px 0;
-  width: 300px;
+  width: 300px !important;
+  height: 350px !important;
   margin: 40px;
   border-radius: 5px;
   padding: 50px;
